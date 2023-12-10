@@ -24,7 +24,7 @@ router.get(
             expiresIn: "1h",
         });
         res.redirect(
-            `http://localhost:3000/login?token=${token}&userId=${req.user}`
+            `https://instagantt-clone.vercel.app/login?token=${token}&userId=${req.user}`
         );
     }
 );
